@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroUsuario">
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Usuario"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/txtCrearNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="50dp"
+        android:hint="Ingrese Nombre"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/txtCrearRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="50dp"
+        android:hint="Ingrese Rut"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/txtCrearMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese Mail"
+        android:layout_margin="10dp"
+        android:minHeight="50dp"/>
+
+    <EditText
+        android:id="@+id/txtCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese Usuario"
+        android:layout_margin="10dp"
+        android:minHeight="50dp"/>
+
+    <EditText
+        android:id="@+id/txtCrearContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ingrese Contraseña"
+        android:layout_margin="10dp"
+        android:minHeight="50dp"/>
+
+    <Button
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Usuario"
+        android:layout_margin="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
